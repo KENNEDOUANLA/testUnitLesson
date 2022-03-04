@@ -1,6 +1,4 @@
-import React, { useEffect, useState } from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import React, { useState } from "react";
 import Home from "./components/Home";
 import Product from "./components/Product";
 import Cart from "./components/Cart";
