@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { endpoint, Product } from "../App";
+import { endpoint, ProductObject as Product } from "../App";
 
 const useProduct = (product: Product) => {
   const [quantity, setQuantity] = useState<number>(1);
