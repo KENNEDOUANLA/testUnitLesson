@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { endpoint, Product } from "../App";
+import { useEffect, useState } from "react";
+import { endpoint, ProductObject as Product } from "../App";
 
 const useCart = () => {
   const [loading, setLoading] = useState<boolean>(true);
