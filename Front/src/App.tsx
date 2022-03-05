@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Home from "./components/Home";
 import Product from "./components/Product";
 import Cart from "./components/Cart";
 
 export const endpoint = "http://localhost:8000/api";
-export type Product = {
+export type ProductObject = {
   id: number;
   name: string;
   price: string;
